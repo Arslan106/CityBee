@@ -1,0 +1,680 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:1:1-45:12
+MERGED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a7a8cc553f00306cb4afac7e5db00fe7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1e7cc4f7a20820dde8bb55397e24ea1a/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/gol/cluster/CityBee/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-video] /Users/gol/cluster/CityBee/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:@react-native-community_geolocation] /Users/gol/cluster/CityBee/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:2:1-18:12
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-mail] /Users/gol/cluster/CityBee/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-orientation] /Users/gol/cluster/CityBee/node_modules/react-native-orientation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-splash-screen] /Users/gol/cluster/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/867996201e8bc36baa2fd92ffdfe38df/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/f65c9848ab7405a3fdc4ee906980fda7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:15:1-36:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/gol/.gradle/caches/transforms-2/files-2.1/e09a557f3ae301aff8a016f6d973fcd7/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/gol/cluster/CityBee/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/c6bb394e01c7ee3966e88e5b3b802502/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/cfbe937b0e70e0449c416dad51e06bb4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/67bec05af9d6a89945dd300a61b0ffd1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/44cd818e2d705151df99a0cfd9f41d1c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/e5a81ab09c35e468b101108247ae3681/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/76e60d8079f98f6213183f4ef64de031/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/def30ba5d284d8507ed57591d854f41a/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1e4dac0999abb166835ad8710072b177/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/480ed751e3424b974d13d9a4e725f601/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/b725add29a03a5dd67a1cfaf48b6c5e9/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/532e8b007237041eccd27d66d203f1c5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f47d6b904a64843e0d57f7068f08c8cc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/41a06b269f2698781f81cc33d316b827/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f6bdd29057dcf398f6ebdc3df9d62139/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f7d9446890d7bc2249feb6538ae1c4e9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d0c151a83253b2d530a0a9a1a840ef73/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/3fafa131ef2bc8482c1ebd7f9f3884ee/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a8db3593f8e0b14b39251e23a7ce4dcd/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/751c7bd5edb67c2b28b1a5539aae1866/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d9752c954945eb753f58cbd1e6bf4a87/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/8d54821ceecc733ecfbcce3f20bfae8a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a32dad5f057ec75fddf03f473d16d493/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d3870d8db3472c9374eea03a9e691b3c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/3183b951349ae7a2fa53b704fb81cdfb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/050d9ded7d5341822018a030d521e5c0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/66cd0363da4d7e6f140acb565629617d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/cac1e9267208590ba21f252777eca0d1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f4b87f4354d3ea7493bf54a1c35a26de/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/457a3f1811a6025f079aece05fb51e3f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/bacaae50e4e24769d2ca61935aa994ef/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/6586e8ceff0ddfc1f82dee843a6246f9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/e94072dc6712d917f9644cdb34b77ee9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/66c5826e1e0b16db60b91b432a5eca09/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44e9feea37d26720db6703d0fff2ca58/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/922e629f450b5e929528950f65eb66c6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1b6e180bb08deaab892c059712720ebe/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/161f6aac4f57e7c62d03a54c90d2e271/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/14a5fd5fe12c32eeee37885e342a6d1f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/73066ebb9e753729565bcbb6059dc0cf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/82013d034f58a022071ee9d86c996e0a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fd7702c6b756e3ec2c0282ceb0643327/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5e1d0380352ffc0325ca3737d263d79a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/4c81d48038b5f158eb48b4dfa99a0090/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/6b8dbabb075f8120c7bcbc14da6684ad/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/2395c38b403477818f3cd09bca8312c2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/afe88edc0ed95d7d2ba763e4d8ec92aa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fa4e67486dc7276a15104a928a53840d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/638e71d9c6906affb153dbdad40d414e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/cdb21c013de41ba83090111fdf4d0f7c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/52ff31a84f996438115cf51b22f54fb6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/40101b2869288c26e9161e1f62b39dda/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/befde88141a3f1e20c03206ce1361714/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fea88e6db6a048928d555a0ec0da95be/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/bb63cd298c37bf44957aa6c26c0adab4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/8ca335ea8cfd38b7d71675100db581bf/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/6022989bbbfeac2e8b5bba0c9ab43c41/AndroidManifest.xml:2:1-7:12
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/gol/.gradle/caches/transforms-2/files-2.1/e09c3d37bf50746f336dd0b32a2356f5/AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d15cb8f7f9398ddd6797e5b501affa0a/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:1:1-45:12
+	package
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:3:3-24
+		INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:1:1-45:12
+		INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:2:2-48
+	android:versionCode
+		INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:1:1-45:12
+		INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/def30ba5d284d8507ed57591d854f41a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/def30ba5d284d8507ed57591d854f41a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:5:5-65
+MERGED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:8:5-88
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:8:22-85
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:10:1-75
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-79
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:10:18-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:11:2-78
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-81
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:11:19-75
+application
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:12:5-43:19
+MERGED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-21:19
+MERGED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-21:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1e7cc4f7a20820dde8bb55397e24ea1a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1e7cc4f7a20820dde8bb55397e24ea1a/AndroidManifest.xml:7:5-20
+MERGED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-splash-screen] /Users/gol/cluster/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-15:19
+MERGED from [:react-native-splash-screen] /Users/gol/cluster/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/867996201e8bc36baa2fd92ffdfe38df/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/867996201e8bc36baa2fd92ffdfe38df/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/c6bb394e01c7ee3966e88e5b3b802502/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/c6bb394e01c7ee3966e88e5b3b802502/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/cfbe937b0e70e0449c416dad51e06bb4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/cfbe937b0e70e0449c416dad51e06bb4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/67bec05af9d6a89945dd300a61b0ffd1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/67bec05af9d6a89945dd300a61b0ffd1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/e5a81ab09c35e468b101108247ae3681/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/e5a81ab09c35e468b101108247ae3681/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/76e60d8079f98f6213183f4ef64de031/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/76e60d8079f98f6213183f4ef64de031/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1e4dac0999abb166835ad8710072b177/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1e4dac0999abb166835ad8710072b177/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/480ed751e3424b974d13d9a4e725f601/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/480ed751e3424b974d13d9a4e725f601/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/b725add29a03a5dd67a1cfaf48b6c5e9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/b725add29a03a5dd67a1cfaf48b6c5e9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/532e8b007237041eccd27d66d203f1c5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/532e8b007237041eccd27d66d203f1c5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f47d6b904a64843e0d57f7068f08c8cc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f47d6b904a64843e0d57f7068f08c8cc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/41a06b269f2698781f81cc33d316b827/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/41a06b269f2698781f81cc33d316b827/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f6bdd29057dcf398f6ebdc3df9d62139/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f6bdd29057dcf398f6ebdc3df9d62139/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f7d9446890d7bc2249feb6538ae1c4e9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f7d9446890d7bc2249feb6538ae1c4e9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d0c151a83253b2d530a0a9a1a840ef73/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d0c151a83253b2d530a0a9a1a840ef73/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/3fafa131ef2bc8482c1ebd7f9f3884ee/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/3fafa131ef2bc8482c1ebd7f9f3884ee/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a8db3593f8e0b14b39251e23a7ce4dcd/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a8db3593f8e0b14b39251e23a7ce4dcd/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/751c7bd5edb67c2b28b1a5539aae1866/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/751c7bd5edb67c2b28b1a5539aae1866/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/922e629f450b5e929528950f65eb66c6/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/922e629f450b5e929528950f65eb66c6/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1b6e180bb08deaab892c059712720ebe/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1b6e180bb08deaab892c059712720ebe/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/8ca335ea8cfd38b7d71675100db581bf/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/8ca335ea8cfd38b7d71675100db581bf/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/922e629f450b5e929528950f65eb66c6/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from [:react-native-splash-screen] /Users/gol/cluster/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:16:7-39
+	android:roundIcon
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:18:7-39
+	android:icon
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:17:7-34
+	android:allowBackup
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:19:7-33
+	android:theme
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:20:7-38
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:15:7-38
+activity#com.citybee.SplashActivity
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:22:9-31:20
+	android:screenOrientation
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:25:14-50
+	android:label
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:26:13-45
+	android:theme
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:24:13-47
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:23:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:29:27-74
+activity#com.citybee.MainActivity
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:33:7-40:18
+	android:screenOrientation
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:36:10-46
+	android:label
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:35:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:38:9-51
+	android:exported
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:39:9-32
+	android:configChanges
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:37:9-79
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:34:9-37
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:42:7-84
+	android:name
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml:42:17-81
+uses-sdk
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a7a8cc553f00306cb4afac7e5db00fe7/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a7a8cc553f00306cb4afac7e5db00fe7/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1e7cc4f7a20820dde8bb55397e24ea1a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1e7cc4f7a20820dde8bb55397e24ea1a/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/gol/cluster/CityBee/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/gol/cluster/CityBee/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /Users/gol/cluster/CityBee/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /Users/gol/cluster/CityBee/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_geolocation] /Users/gol/cluster/CityBee/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_geolocation] /Users/gol/cluster/CityBee/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-mail] /Users/gol/cluster/CityBee/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-mail] /Users/gol/cluster/CityBee/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-orientation] /Users/gol/cluster/CityBee/node_modules/react-native-orientation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-orientation] /Users/gol/cluster/CityBee/node_modules/react-native-orientation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/gol/cluster/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/gol/cluster/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/867996201e8bc36baa2fd92ffdfe38df/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/867996201e8bc36baa2fd92ffdfe38df/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/f65c9848ab7405a3fdc4ee906980fda7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/f65c9848ab7405a3fdc4ee906980fda7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:19:5-21:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/gol/.gradle/caches/transforms-2/files-2.1/e09a557f3ae301aff8a016f6d973fcd7/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/gol/.gradle/caches/transforms-2/files-2.1/e09a557f3ae301aff8a016f6d973fcd7/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/gol/cluster/CityBee/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/gol/cluster/CityBee/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/c6bb394e01c7ee3966e88e5b3b802502/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/c6bb394e01c7ee3966e88e5b3b802502/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/cfbe937b0e70e0449c416dad51e06bb4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/cfbe937b0e70e0449c416dad51e06bb4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/67bec05af9d6a89945dd300a61b0ffd1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/67bec05af9d6a89945dd300a61b0ffd1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/44cd818e2d705151df99a0cfd9f41d1c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/44cd818e2d705151df99a0cfd9f41d1c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/e5a81ab09c35e468b101108247ae3681/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/e5a81ab09c35e468b101108247ae3681/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/76e60d8079f98f6213183f4ef64de031/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/76e60d8079f98f6213183f4ef64de031/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/def30ba5d284d8507ed57591d854f41a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/def30ba5d284d8507ed57591d854f41a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1e4dac0999abb166835ad8710072b177/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1e4dac0999abb166835ad8710072b177/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/480ed751e3424b974d13d9a4e725f601/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/480ed751e3424b974d13d9a4e725f601/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/b725add29a03a5dd67a1cfaf48b6c5e9/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/b725add29a03a5dd67a1cfaf48b6c5e9/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/532e8b007237041eccd27d66d203f1c5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/532e8b007237041eccd27d66d203f1c5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f47d6b904a64843e0d57f7068f08c8cc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f47d6b904a64843e0d57f7068f08c8cc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/41a06b269f2698781f81cc33d316b827/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/41a06b269f2698781f81cc33d316b827/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f6bdd29057dcf398f6ebdc3df9d62139/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f6bdd29057dcf398f6ebdc3df9d62139/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f7d9446890d7bc2249feb6538ae1c4e9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f7d9446890d7bc2249feb6538ae1c4e9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d0c151a83253b2d530a0a9a1a840ef73/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d0c151a83253b2d530a0a9a1a840ef73/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/3fafa131ef2bc8482c1ebd7f9f3884ee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/3fafa131ef2bc8482c1ebd7f9f3884ee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a8db3593f8e0b14b39251e23a7ce4dcd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a8db3593f8e0b14b39251e23a7ce4dcd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/751c7bd5edb67c2b28b1a5539aae1866/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/751c7bd5edb67c2b28b1a5539aae1866/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d9752c954945eb753f58cbd1e6bf4a87/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d9752c954945eb753f58cbd1e6bf4a87/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/8d54821ceecc733ecfbcce3f20bfae8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/8d54821ceecc733ecfbcce3f20bfae8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a32dad5f057ec75fddf03f473d16d493/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/a32dad5f057ec75fddf03f473d16d493/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d3870d8db3472c9374eea03a9e691b3c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d3870d8db3472c9374eea03a9e691b3c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/3183b951349ae7a2fa53b704fb81cdfb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/3183b951349ae7a2fa53b704fb81cdfb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/050d9ded7d5341822018a030d521e5c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/050d9ded7d5341822018a030d521e5c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/66cd0363da4d7e6f140acb565629617d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/66cd0363da4d7e6f140acb565629617d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/cac1e9267208590ba21f252777eca0d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/cac1e9267208590ba21f252777eca0d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f4b87f4354d3ea7493bf54a1c35a26de/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f4b87f4354d3ea7493bf54a1c35a26de/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/457a3f1811a6025f079aece05fb51e3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/457a3f1811a6025f079aece05fb51e3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/bacaae50e4e24769d2ca61935aa994ef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/bacaae50e4e24769d2ca61935aa994ef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/6586e8ceff0ddfc1f82dee843a6246f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/6586e8ceff0ddfc1f82dee843a6246f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/e94072dc6712d917f9644cdb34b77ee9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/e94072dc6712d917f9644cdb34b77ee9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/66c5826e1e0b16db60b91b432a5eca09/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/66c5826e1e0b16db60b91b432a5eca09/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44e9feea37d26720db6703d0fff2ca58/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44e9feea37d26720db6703d0fff2ca58/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/922e629f450b5e929528950f65eb66c6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/922e629f450b5e929528950f65eb66c6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1b6e180bb08deaab892c059712720ebe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1b6e180bb08deaab892c059712720ebe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/161f6aac4f57e7c62d03a54c90d2e271/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/161f6aac4f57e7c62d03a54c90d2e271/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/14a5fd5fe12c32eeee37885e342a6d1f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/14a5fd5fe12c32eeee37885e342a6d1f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/73066ebb9e753729565bcbb6059dc0cf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/73066ebb9e753729565bcbb6059dc0cf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/82013d034f58a022071ee9d86c996e0a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/82013d034f58a022071ee9d86c996e0a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fd7702c6b756e3ec2c0282ceb0643327/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fd7702c6b756e3ec2c0282ceb0643327/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5e1d0380352ffc0325ca3737d263d79a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5e1d0380352ffc0325ca3737d263d79a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/4c81d48038b5f158eb48b4dfa99a0090/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/4c81d48038b5f158eb48b4dfa99a0090/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/6b8dbabb075f8120c7bcbc14da6684ad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/6b8dbabb075f8120c7bcbc14da6684ad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/2395c38b403477818f3cd09bca8312c2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/2395c38b403477818f3cd09bca8312c2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/afe88edc0ed95d7d2ba763e4d8ec92aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/afe88edc0ed95d7d2ba763e4d8ec92aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fa4e67486dc7276a15104a928a53840d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fa4e67486dc7276a15104a928a53840d/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/638e71d9c6906affb153dbdad40d414e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/638e71d9c6906affb153dbdad40d414e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/cdb21c013de41ba83090111fdf4d0f7c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/cdb21c013de41ba83090111fdf4d0f7c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/52ff31a84f996438115cf51b22f54fb6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/52ff31a84f996438115cf51b22f54fb6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/40101b2869288c26e9161e1f62b39dda/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/40101b2869288c26e9161e1f62b39dda/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/befde88141a3f1e20c03206ce1361714/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/befde88141a3f1e20c03206ce1361714/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fea88e6db6a048928d555a0ec0da95be/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fea88e6db6a048928d555a0ec0da95be/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/bb63cd298c37bf44957aa6c26c0adab4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/bb63cd298c37bf44957aa6c26c0adab4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/8ca335ea8cfd38b7d71675100db581bf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/8ca335ea8cfd38b7d71675100db581bf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/6022989bbbfeac2e8b5bba0c9ab43c41/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/6022989bbbfeac2e8b5bba0c9ab43c41/AndroidManifest.xml:5:5-44
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/gol/.gradle/caches/transforms-2/files-2.1/e09c3d37bf50746f336dd0b32a2356f5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/gol/.gradle/caches/transforms-2/files-2.1/e09c3d37bf50746f336dd0b32a2356f5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d15cb8f7f9398ddd6797e5b501affa0a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d15cb8f7f9398ddd6797e5b501affa0a/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gol/cluster/CityBee/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/def30ba5d284d8507ed57591d854f41a/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/def30ba5d284d8507ed57591d854f41a/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-79
+MERGED from [:react-native-geolocation-service] /Users/gol/cluster/CityBee/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/def30ba5d284d8507ed57591d854f41a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/def30ba5d284d8507ed57591d854f41a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-20:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:18-89
+meta-data#com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [:react-native-firebase] /Users/gol/cluster/CityBee/node_modules/react-native-firebase/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-116
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/gol/cluster/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+uses-feature#android.hardware.camera
+ADDED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/gol/cluster/CityBee/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:15:9-57
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:32:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/44f4267e0196d70f4858365f90c9bc70/AndroidManifest.xml:31:17-109
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d1d5be7478cd820477a96702d52f99a1/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/fe477fc722f283dc65db12f35cc92621/AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/15e0b1773119784b4d38bf75fee7f9ff/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/81384f40ea366a0b5e83df89d75ec365/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/b725add29a03a5dd67a1cfaf48b6c5e9/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/b725add29a03a5dd67a1cfaf48b6c5e9/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/b725add29a03a5dd67a1cfaf48b6c5e9/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/b725add29a03a5dd67a1cfaf48b6c5e9/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/b725add29a03a5dd67a1cfaf48b6c5e9/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f6bdd29057dcf398f6ebdc3df9d62139/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f6bdd29057dcf398f6ebdc3df9d62139/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f6bdd29057dcf398f6ebdc3df9d62139/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/f6bdd29057dcf398f6ebdc3df9d62139/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/751c7bd5edb67c2b28b1a5539aae1866/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/751c7bd5edb67c2b28b1a5539aae1866/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/751c7bd5edb67c2b28b1a5539aae1866/AndroidManifest.xml:24:13-58
