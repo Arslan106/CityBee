@@ -20,6 +20,8 @@ import com.reactnativecommunity.geolocation.GeolocationPackage;
 import org.reactnative.camera.RNCameraPackage;
 // react-native-firebase
 import io.invertase.firebase.RNFirebasePackage;
+// react-native-fs
+import com.rnfs.RNFSPackage;
 // react-native-geolocation-service
 import com.agontuk.RNFusedLocation.RNFusedLocationPackage;
 // react-native-gesture-handler
@@ -30,6 +32,8 @@ import com.imagepicker.ImagePickerPackage;
 import com.chirag.RNMail.RNMail;
 // react-native-orientation
 import com.github.yamill.orientation.OrientationPackage;
+// react-native-screen-recorder
+import com.shinetechchina.react_native_screen_recorder.ScreenRecorderPackage;
 // react-native-splash-screen
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 // react-native-vector-icons
@@ -84,11 +88,13 @@ public class PackageList {
       new GeolocationPackage(),
       new RNCameraPackage(),
       new RNFirebasePackage(),
+      new RNFSPackage(),
       new RNFusedLocationPackage(),
       new RNGestureHandlerPackage(),
       new ImagePickerPackage(),
       new RNMail(),
       new OrientationPackage(),
+      new ScreenRecorderPackage(),
       new SplashScreenReactPackage(),
       new VectorIconsPackage(),
       new ReactVideoPackage()

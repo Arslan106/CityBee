@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { View, Text, ActivityIndicator } from 'react-native'
-import { Header, Container, Title, Body, Left, Right } from 'native-base'
+import {
+    Header, Container, Title, Body, Left, Right, Button,
+    Icon,
+} from 'native-base'
 import { yelloColor, blackColor } from '../Components/Helper/colors';
 import { FlatList } from 'react-native-gesture-handler';
 import Mystorage from './Mystorage';
@@ -22,7 +25,7 @@ export default class Main extends React.Component {
             isloading: true
         })
         let video = []
-        console.log('this.props', this.props.navigation.state.params.data.uri)
+        console.log('this.props', this.props.navigation.state.params.data)
         setTimeout(() => {
             new Mystorage().getVideo().then((resp) => {
                 // console.log('response', JSON.parse(resp))
@@ -64,7 +67,7 @@ export default class Main extends React.Component {
     _renderItem = ({ item, index }) => {
         console.log('here i am', this.state.videos.length, this.props.navigation)
         return (
-            <PureRow item={item} index={index} nav={this.props.navigation} lastItem={this.props.navigation.state.params.data.uri} handleStateDelete={this.handleStateDelete} />
+            <PureRow item={item} index={index} nav={this.props.navigation} lastItem={this.props.navigation.state.params.data} handleStateDelete={this.handleStateDelete} />
         )
     }
 
@@ -73,7 +76,11 @@ export default class Main extends React.Component {
         return (
             <Container >
                 <Header style={{ backgroundColor: 'white' }}>
-                    <Left />
+                    <Left>
+                        <Button transparent onPress={() => { this.props.navigation.goBack() }}>
+                            <Icon style={{ color: 'black' }} name='arrow-back' />
+                        </Button>
+                    </Left>
                     <Body>
                         <Title style={{ color: 'black' }}>Welcome</Title>
                     </Body>

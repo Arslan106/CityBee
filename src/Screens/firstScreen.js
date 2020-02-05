@@ -9,6 +9,7 @@ import citiBeee from '../../assests/citibeee.png'
 import moment from 'moment';
 import Mystorage from './Mystorage';
 import { ScrollView } from 'react-native-gesture-handler';
+let string1 = ''
 export default class FirstScreen extends React.Component {
     constructor(props) {
         super(props);
@@ -17,60 +18,101 @@ export default class FirstScreen extends React.Component {
             nextButton:false,
             myArray: [],
             videoDateTime: '',
-            videoAddress: ''
+            videoAddress: '',
+            isScreenRecording:false
 
         }
     }
     start = () => {
         if(this.state.nextButton == false){
+            // this.props.navigation.navigate('Record')
 
             alert('Please agree to our term & conditions!')
 
         }
         else{
             let newVideo = []
+            this.videoRecorder.open({ maxLength: 30 }, (data) => {
+            if (string1 != '' || string1 != undefined) {
+                let tempObj = {
+                    data: string1,
+                    videoDateTime: moment().format('MMMM Do YYYY, h:mm:ss a'),
+                    videoAddress: this.state.videoAddress
+
+                }
+                new Mystorage().getVideo().then((res) => {
+                    let response = JSON.parse(res)
+                    return Promise.resolve(response)
+                }).then((response) => {
+                    console.log('here i ammmmmmmm', response)
+                    if (response != null || response != undefined) {
+                        response.map((item, index) => {
+                            newVideo.push(item)
+                        })
+                        var joined = newVideo.concat(tempObj);
+                        console.log('joinded', joined)
+                        new Mystorage().AddVideo(JSON.stringify(joined))
+                        this.props.navigation.navigate('Main', { data: string1, videoDateTime: this.state.videoDateTime, videoAddress: this.state.videoAddress })
+
+                    }
+                    else {
+
+                        new Mystorage().AddVideo(JSON.stringify([tempObj]))
+                        this.props.navigation.navigate('Main', { data: string1, videoDateTime: this.state.videoDateTime, videoAddress: this.state.videoAddress })
+
+                    }
+
+                }).catch(err => {
+                    console.log(err)
+                })
+
+            }
+            else {
+                alert('Your Video Was Intrupted')
+            }
+        })
 
             // 30 seconds
-            this.videoRecorder.open({ maxLength: 30 }, (data) => {
-                console.log('captured data', data);
-                if (!data.isRecordingInterrupted && data) {
-                    let tempObj = {
-                        data: data.uri,
-                        videoDateTime: moment().format('MMMM Do YYYY, h:mm:ss a'),
-                        videoAddress: this.state.videoAddress
+            // this.videoRecorder.open({ maxLength: 30 }, (data) => {
+            //     console.log('captured data', data);
+                // if (!data.isRecordingInterrupted && data) {
+                //     let tempObj = {
+                //         data: data.uri,
+                //         videoDateTime: moment().format('MMMM Do YYYY, h:mm:ss a'),
+                //         videoAddress: this.state.videoAddress
     
-                    }
-                    new Mystorage().getVideo().then((res) => {
-                        let response = JSON.parse(res)
-                        return Promise.resolve(response)
-                    }).then((response) => {
-                        console.log('here i ammmmmmmm', response)
-                        if (response != null || response != undefined) {
-                            response.map((item, index) => {
-                                newVideo.push(item)
-                            })
-                            var joined = newVideo.concat(tempObj);
-                            console.log('joinded', joined)
-                            new Mystorage().AddVideo(JSON.stringify(joined))
-                            this.props.navigation.navigate('Main', { data: data, videoDateTime: this.state.videoDateTime, videoAddress: this.state.videoAddress })
+                //     }
+                //     new Mystorage().getVideo().then((res) => {
+                //         let response = JSON.parse(res)
+                //         return Promise.resolve(response)
+                //     }).then((response) => {
+                //         console.log('here i ammmmmmmm', response)
+                //         if (response != null || response != undefined) {
+                //             response.map((item, index) => {
+                //                 newVideo.push(item)
+                //             })
+                //             var joined = newVideo.concat(tempObj);
+                //             console.log('joinded', joined)
+                //             new Mystorage().AddVideo(JSON.stringify(joined))
+                //             this.props.navigation.navigate('Main', { data: data, videoDateTime: this.state.videoDateTime, videoAddress: this.state.videoAddress })
     
-                        }
-                        else {
+                //         }
+                //         else {
     
-                            new Mystorage().AddVideo(JSON.stringify([tempObj]))
-                            this.props.navigation.navigate('Main', { data: data, videoDateTime: this.state.videoDateTime, videoAddress: this.state.videoAddress })
+                //             new Mystorage().AddVideo(JSON.stringify([tempObj]))
+                //             this.props.navigation.navigate('Main', { data: data, videoDateTime: this.state.videoDateTime, videoAddress: this.state.videoAddress })
     
-                        }
+                //         }
     
-                    }).catch(err => {
-                        console.log(err)
-                    })
+                //     }).catch(err => {
+                //         console.log(err)
+                //     })
     
-                }
-                else {
-                    alert('Your Video Was Intrupted')
-                }
-            });
+                // }
+                // else {
+                //     alert('Your Video Was Intrupted')
+                // }
+            // });
 
         }
        
@@ -84,7 +126,7 @@ export default class FirstScreen extends React.Component {
 
         return (
             <View style={{ flex: 1, paddingHorizontal: scale(12) }}>
-                <StatusBar backgroundColor={yelloColor} />
+                <StatusBar backgroundColor={yelloColor} hidden={this.state.isScreenRecording} />
                 <ScrollView showsVerticalScrollIndicator={false}>
                     <TouchableOpacity onLongPress={this.handlerLongClick} style={{ flex: 1, justifyContent: 'flex-end', alignItems: 'center' }}>
 
@@ -130,6 +172,21 @@ export default class FirstScreen extends React.Component {
             </View>
         )
     }
+
+    gettingPath = (result) =>{
+        // console.log('here is the path of vide',result,result.pop().path)
+         string1 = 'file:///' + result.pop().path
+        console.log('here is the full addres', string1)
+
+    }
+
+    isScreenRecording = (isRecord) =>{
+        this.setState({
+            isScreenRecording:isRecord
+        })
+    }
+
+
     gettingDataFromIndex = (location, time) => {
         console.log('gettingDataFromIndex : ', location, time)
         let now = moment().format('MMMM Do YYYY, h:mm:ss a');
@@ -148,7 +205,10 @@ export default class FirstScreen extends React.Component {
                 </View>
                 <View style={{ flex: 0.5, justifyContent: 'center', alignItems: 'center', paddingHorizontal: scale(12), }}>
                     <View style={{ flex: 0.3 }}>
-                        <VideoRecorder ref={(ref) => { this.videoRecorder = ref; }} gettingDataFromIndex={this.gettingDataFromIndex} />
+                        <VideoRecorder ref={(ref) => { this.videoRecorder = ref; }}
+                         gettingPath ={this.gettingPath}
+                         isScreenRecording={this.isScreenRecording}
+                          gettingDataFromIndex={this.gettingDataFromIndex} />
 
                     </View>
                     <Button full onPress={this.start}

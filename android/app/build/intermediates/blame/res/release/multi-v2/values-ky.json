@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gol/cluster/CityBee/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ky/values-ky.xml",
+            "outputFile": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/f65c9848ab7405a3fdc4ee906980fda7/res/values-ky/values-ky.xml",

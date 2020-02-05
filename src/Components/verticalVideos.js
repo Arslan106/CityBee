@@ -7,6 +7,7 @@ import { yelloColor } from './Helper/colors';
 import email from 'react-native-email'
 import Mystorage from '../Screens/Mystorage';
 
+
 class PureRow extends PureComponent {
     constructor(props) {
         super(props);
@@ -51,7 +52,7 @@ class PureRow extends PureComponent {
                     // alignItems: "center"
                 }} >
                     <View style={{position: 'absolute',zIndex:2,borderRadius:5, borderColor:'white',borderWidth:1, backgroundColor:yelloColor,width:scale(70),justifyContent:'center',alignItems:'center'}}>
-                        <Text style={{color:'black',fontWeight:'bold'}}>{ item.data == lastItem ? 'New' : 'Pervious'}</Text>
+                        <Text style={{color:'black',fontWeight:'bold'}}>{ item.data == lastItem ? 'New' : 'Previous'}</Text>
                     </View>
                 <TouchableOpacity
                     onPress={() => { this.openArticleDetail(item.data) }}

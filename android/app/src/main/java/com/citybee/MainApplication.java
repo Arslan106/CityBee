@@ -1,5 +1,5 @@
 package com.citybee;
-
+import com.shinetechchina.react_native_screen_recorder.RecordService;  // <-- add this import
 import androidx.appcompat.app.AppCompatActivity;
 import android.app.Application;
 import com.oblador.vectoricons.VectorIconsPackage;
@@ -11,6 +11,8 @@ import io.invertase.firebase.auth.RNFirebaseAuthPackage;
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.rnfs.RNFSPackage;
+import com.shinetechchina.react_native_screen_recorder.ScreenRecorderPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
@@ -34,6 +36,7 @@ public class MainApplication extends Application implements ReactApplication {
             packages.add(new RNFirebaseStoragePackage()); 
              packages.add(new RNFirebaseDatabasePackage());
              packages.add(new ReactVideoPackage());
+            //  packages.add(new ScreenRecorderPackage());
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
           return packages;
@@ -54,6 +57,7 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
+    // startService(new Intent(this, RecordService.class));
     initializeFlipper(this); // Remove this line if you don't want Flipper enabled
   }
 

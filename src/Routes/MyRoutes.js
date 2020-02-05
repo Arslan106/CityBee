@@ -4,6 +4,7 @@ import Main from '../Screens/main'
 import VideoPlayer from '../Screens/videoPlayer'
 import SendEmail from '../Screens/SendEmail'
 import UploadVideo from '../Screens/UploadVideo'
+import Record from '../Screens/record'
 import WelcomAdmin from '../Screens/WelcomAdmin'
 import { createStackNavigator, createAppContainer } from 'react-navigation'
 
@@ -29,6 +30,9 @@ const AppNavigator = createStackNavigator({
     },
     WelcomAdmin:{
         screen:WelcomAdmin
+    },Record:{
+        screen:Record
+
     }
 
 },{
