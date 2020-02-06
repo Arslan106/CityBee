@@ -130,7 +130,7 @@ export default class UploadVideo extends React.Component {
             loading: true
         })
         let uri = this.props.navigation.state.params.VideoLink.data
-        const filename = `${uuid()}`;
+        const filename = `${uuid()}.mp4`;
         console.log('asdfasdfadsfasdf', uri, filename)
         firebase
             .storage()

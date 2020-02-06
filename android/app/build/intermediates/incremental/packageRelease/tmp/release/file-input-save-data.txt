@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Feb 06 00:07:05 PKT 2020
+#Thu Feb 06 10:06:15 PKT 2020
 60.set=NATIVE_RESOURCE
 52.set=NATIVE_RESOURCE
 53.base=/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/transforms/stripDebugSymbol/release/0
