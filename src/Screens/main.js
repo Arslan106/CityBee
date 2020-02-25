@@ -9,6 +9,7 @@ import { FlatList } from 'react-native-gesture-handler';
 import Mystorage from './Mystorage';
 import PureRow from '../Components/verticalVideos';
 import { verticalScale } from '../Components/scaling'
+var RNFS = require('react-native-fs');
 
 export default class Main extends React.Component {
     constructor(props) {
@@ -45,9 +46,16 @@ export default class Main extends React.Component {
 
     };
 
+    deleteVideoFromStorage = () => {
+        RNFS.readDir(RNFS.ExternalStorageDirectoryPath + '/ScreenRecord/') // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
+            .then((result) => {
+                console.log('result is : ', result)
+            })
+    }
+
 
     handleStateDelete = (_item, _index) => {
-        // console.log('in main handleDelete', _item, _index)
+        console.log('in main handleDelete', _item, _index)
         this.setState({
             video: this.state.videos.splice(_index, 1)
         })
@@ -58,7 +66,21 @@ export default class Main extends React.Component {
             // console.log('sdfasdfasdfasdf', data)
             new Mystorage().AddVideo(JSON.stringify(data))
 
+        }).then(() => {
+            RNFS.unlink(_item.data)
+                .then(() => {
+                    console.log('FILE DELETED');
+                    alert('File Deleted')
+                })
+                .catch((err) => {
+                    console.log(err.message);
+                    alert(err.message)
+
+                });
+
         })
+
+
 
     }
 

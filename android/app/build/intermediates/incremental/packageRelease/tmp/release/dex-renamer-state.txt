@@ -1,4 +1,4 @@
-#Thu Feb 06 10:06:15 PKT 2020
+#Mon Feb 24 12:39:59 PKT 2020
 base.0=/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/transforms/dexMerger/release/0
 path.1=classes2.dex
 renamed.1=classes2.dex

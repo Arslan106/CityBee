@@ -18,7 +18,7 @@ MERGED from [:react-native-geolocation-service] /Users/gol/cluster/city_bee/City
 MERGED from [:react-native-mail] /Users/gol/cluster/city_bee/CityBee/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-orientation] /Users/gol/cluster/city_bee/CityBee/node_modules/react-native-orientation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-splash-screen] /Users/gol/cluster/city_bee/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-17:12
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/f65c9848ab7405a3fdc4ee906980fda7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:15:1-37:12
@@ -85,7 +85,7 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/gol/.gradle
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/bb63cd298c37bf44957aa6c26c0adab4/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/8ca335ea8cfd38b7d71675100db581bf/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/6022989bbbfeac2e8b5bba0c9ab43c41/AndroidManifest.xml:2:1-7:12
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/gol/.gradle/caches/transforms-2/files-2.1/e09c3d37bf50746f336dd0b32a2356f5/AndroidManifest.xml:2:1-12:12
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/gol/.gradle/caches/transforms-2/files-2.1/6a8083898f9dacdee4cfc1b689358855/AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d15cb8f7f9398ddd6797e5b501affa0a/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/gol/cluster/city_bee/CityBee/android/app/src/main/AndroidManifest.xml:1:1-47:12
 INJECTED from /Users/gol/cluster/city_bee/CityBee/android/app/src/main/AndroidManifest.xml:1:1-47:12
@@ -174,8 +174,8 @@ MERGED from [:react-native-image-picker] /Users/gol/cluster/city_bee/CityBee/nod
 MERGED from [:react-native-image-picker] /Users/gol/cluster/city_bee/CityBee/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
 MERGED from [:react-native-splash-screen] /Users/gol/cluster/city_bee/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-15:19
 MERGED from [:react-native-splash-screen] /Users/gol/cluster/city_bee/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-15:19
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/AndroidManifest.xml:11:5-20
 MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/0a7c043e7542f58028bac8e70675d1ae/AndroidManifest.xml:29:5-35:19
@@ -320,8 +320,8 @@ MERGED from [:react-native-orientation] /Users/gol/cluster/city_bee/CityBee/node
 MERGED from [:react-native-orientation] /Users/gol/cluster/city_bee/CityBee/node_modules/react-native-orientation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-splash-screen] /Users/gol/cluster/city_bee/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-splash-screen] /Users/gol/cluster/city_bee/CityBee/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/f65c9848ab7405a3fdc4ee906980fda7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/gol/.gradle/caches/transforms-2/files-2.1/f65c9848ab7405a3fdc4ee906980fda7/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/5cad4e7da4f14b87947f0d3bf1b7a824/AndroidManifest.xml:21:5-44
@@ -454,8 +454,8 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/gol/.gradle/caches/tra
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/8ca335ea8cfd38b7d71675100db581bf/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/6022989bbbfeac2e8b5bba0c9ab43c41/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/gol/.gradle/caches/transforms-2/files-2.1/6022989bbbfeac2e8b5bba0c9ab43c41/AndroidManifest.xml:5:5-44
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/gol/.gradle/caches/transforms-2/files-2.1/e09c3d37bf50746f336dd0b32a2356f5/AndroidManifest.xml:8:5-10:41
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/gol/.gradle/caches/transforms-2/files-2.1/e09c3d37bf50746f336dd0b32a2356f5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/gol/.gradle/caches/transforms-2/files-2.1/6a8083898f9dacdee4cfc1b689358855/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/gol/.gradle/caches/transforms-2/files-2.1/6a8083898f9dacdee4cfc1b689358855/AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d15cb8f7f9398ddd6797e5b501affa0a/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/d15cb8f7f9398ddd6797e5b501affa0a/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/gol/cluster/city_bee/CityBee/android/app/src/main/AndroidManifest.xml

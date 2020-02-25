@@ -49,11 +49,11 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/layout_dev_loading_view.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/layout/dev_loading_view.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/layout_redbox_view.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/layout/redbox_view.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/layout/redbox_view.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -61,7 +61,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/anim_catalyst_push_up_in.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/anim/catalyst_push_up_in.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/anim/catalyst_push_up_in.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -197,7 +197,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/layout_redbox_item_frame.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/layout/redbox_item_frame.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -633,7 +633,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/layout_fps_view.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/layout/fps_view.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/layout/fps_view.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -777,7 +777,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/anim_catalyst_fade_in.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/anim/catalyst_fade_in.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/anim/catalyst_fade_in.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -857,7 +857,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/xml_rn_dev_preferences.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/xml/rn_dev_preferences.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/xml/rn_dev_preferences.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/layout_abc_select_dialog_material.xml.flat",
@@ -1021,7 +1021,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/anim_catalyst_slide_down.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/anim/catalyst_slide_down.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/anim/catalyst_slide_down.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/color_abc_search_url_text.xml.flat",
@@ -1349,7 +1349,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/drawable_redbox_top_border_background.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/drawable/redbox_top_border_background.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/drawable/redbox_top_border_background.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/drawable_abc_ic_ab_back_material.xml.flat",
@@ -1409,7 +1409,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/layout_redbox_item_title.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/layout/redbox_item_title.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -1669,7 +1669,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/anim_catalyst_slide_up.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/anim/catalyst_slide_up.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/anim/catalyst_slide_up.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/color-v23_abc_tint_default.xml.flat",
@@ -1737,7 +1737,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/anim_catalyst_push_up_out.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/anim/catalyst_push_up_out.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/anim/catalyst_push_up_out.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_disabled.xml.flat",
@@ -1937,7 +1937,7 @@
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/anim_catalyst_fade_out.xml.flat",
-        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/4b3c2a458035e2c292101a32aa7bb0fb/res/anim/catalyst_fade_out.xml"
+        "source": "/Users/gol/.gradle/caches/transforms-2/files-2.1/b14738e1bc46c1f352dab4839345776f/res/anim/catalyst_fade_out.xml"
     },
     {
         "merged": "/Users/gol/cluster/city_bee/CityBee/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",

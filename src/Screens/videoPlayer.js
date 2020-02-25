@@ -84,7 +84,7 @@ export default class VideoPlayer extends React.Component {
     }
     render() {
         const { width } = Dimensions.get('window');
-        const height = width * 1.0625;
+        const height = '100%';
         return (
             <Container>
                 <Header style={{backgroundColor:yelloColor}}>

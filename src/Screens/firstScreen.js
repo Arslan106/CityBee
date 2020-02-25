@@ -204,7 +204,7 @@ export default class FirstScreen extends React.Component {
 
                 </View>
                 <View style={{ flex: 0.5, justifyContent: 'center', alignItems: 'center', paddingHorizontal: scale(12), }}>
-                    <View style={{ flex: 0.3 }}>
+                    <View style={{ flex: 0.5 }}>
                         <VideoRecorder ref={(ref) => { this.videoRecorder = ref; }}
                          gettingPath ={this.gettingPath}
                          isScreenRecording={this.isScreenRecording}
